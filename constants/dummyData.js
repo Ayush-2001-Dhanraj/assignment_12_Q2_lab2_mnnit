@@ -9,7 +9,8 @@ const propertiesArray = [
     nBathrooms: 2,
     buildYear: new Date(2019, 5, 1), // June 1, 2019
     price: 250000,
-    homeImage: "apartment_image_url_1.jpg",
+    homeImage:
+      "https://bsmedia.business-standard.com/_media/bs/img/article/2023-11/26/full/1701018131-7486.jpg?im=FeatureCrop,size=(826,465)",
     status: "available",
     pincode: "123456",
     category: "single",
@@ -24,7 +25,8 @@ const propertiesArray = [
     nBathrooms: 3,
     buildYear: new Date(2010, 8, 15), // September 15, 2010
     price: 400000,
-    homeImage: "house_image_url_1.jpg",
+    homeImage:
+      "https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg",
     status: "sold",
     pincode: "789101",
     category: "condo",
@@ -39,7 +41,8 @@ const propertiesArray = [
     nBathrooms: 1,
     buildYear: new Date(1950, 3, 10), // April 10, 1950
     price: 150000,
-    homeImage: "cottage_image_url_1.jpg",
+    homeImage:
+      "https://foyr.com/learn/wp-content/uploads/2021/08/design-your-dream-home.jpg",
     status: "off",
     pincode: "675893",
     category: "two",
@@ -55,7 +58,8 @@ const propertiesArray = [
     nBathrooms: 4,
     buildYear: new Date(2015, 11, 20), // December 20, 2015
     price: 800000,
-    homeImage: "villa_image_url_1.jpg",
+    homeImage:
+      "https://d1g60h9yrlz7l3.cloudfront.net/207a91dbcc1b33777ad999eb3ba5f273c347f57e-1-medium.jpeg",
     status: "available",
     pincode: "123654",
     category: "rental",
@@ -71,7 +75,8 @@ const propertiesArray = [
     nBathrooms: 1,
     buildYear: new Date(1980, 6, 5), // July 5, 1980
     price: 120000,
-    homeImage: "cabin_image_url_1.jpg",
+    homeImage:
+      "https://www.compass.com/m/66d0bf1bb93ced788fd7b416e7b749f05fb04609_img_0_bd41c/origin.jpg",
     status: "sold",
     pincode: "730811",
     category: "condo",

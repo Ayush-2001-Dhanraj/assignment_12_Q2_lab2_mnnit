@@ -9,6 +9,98 @@
 </head>
 
 <body>
+    <!-- Display Houses -->
+    <div id="house_list">
+    </div>
+
+    <div id="action_container">
+        <div id="add_home_container">
+            <h3>Add / Update Home</h3>
+            <form id="add_house"">
+                <label for=" homeID">Home ID:</label>
+                <input type="text" id="homeID" required>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="owner">Owner:</label>
+                <input type="text" id="owner" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" required>
+
+                <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" required></textarea>
+
+                <label for="sqfeet">Square Feet:</label>
+                <input type="number" id="sqfeet" required>
+
+                <label for="nBedrooms">Number of Bedrooms:</label>
+                <input type="number" id="nBedrooms" required>
+
+                <label for="nBathrooms">Number of Bathrooms:</label>
+                <input type="number" id="nBathrooms" required>
+
+                <label for="buildYear">Build Year:</label>
+                <input type="date" id="buildYear" required>
+
+                <label for="price">Price:</label>
+                <input type="number" id="price" required>
+
+                <label for="homeImage">Home Image URL:</label>
+                <input type="text" id="homeImage" required>
+
+                <label for="status">Status:</label>
+                <select id="status" required>
+                    <option value="available">Available</option>
+                    <option value="sold">Sold</option>
+                    <option value="off">Off the Market</option>
+                </select>
+
+                <button type="button" id="add_home_btn">Add / Update Home</button>
+            </form>
+        </div>
+
+        <div id="delete_house" class="filter">
+            <label for="deleteHomeId">Home ID to Delete:</label>
+            <input type="text" id="deleteHomeId" required>
+            <button type="button" id="delete_house_btn""">Delete Home</button>
+        </div>
+
+        <div id="filter_homes" class="filter">
+            <label for="filter_category">Category:</label>
+            <select id="filter_category" required>
+                <option value="single">Single</option>
+                <option value="two">Two</option>
+                <option value="condo">Condo</option>
+                <option value="rental">Rental</option>
+            </select>
+            <button type="button" id="filter_category_btn">Filter category</button>
+        </div>
+
+        <div id="filter_search" class="filter">
+            <h3>Search by filter</h3>
+
+            <label for="maxPrice">Max Price:</label>
+            <input type="number" id="maxPrice" required>
+
+            <label for="minSqfeet">Min Square Feet:</label>
+            <input type="number" id="minSqfeet" required>
+
+            <label for="nBedrooms">No. of Bedrooms:</label>
+            <input type="number" id="nBedrooms_search" required>
+
+            <label for="nBathrooms">No. of Bathrooms:</label>
+            <input type="number" id="nBathrooms_search" required>
+
+            <button type="button" id="filter_search_btn">Search</button>
+        </div>
+
+    </div>
+
 
     <script type="module" src="main.js" />
 </body>
