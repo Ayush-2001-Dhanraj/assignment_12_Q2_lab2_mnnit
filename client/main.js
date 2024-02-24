@@ -7,10 +7,10 @@ function displayHomes(homes) {
     homeCard.classList.add("home_card");
 
     homeCard.innerHTML = `
-                    <h3>${home.name}</h3>
                     <div class="home_img_container">
                       <img src=${home.homeImage} alt=${home.name}/>
                     </div>
+                    <h3>${home.name}</h3>
                     <div>Id: <p>${home._id}</p></div>
                     <div>Owner: <p>${home.owner}</p></div>
                     <div>Address: <p>${home.address}</p></div>
